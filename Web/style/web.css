@@ -1,0 +1,118 @@
+header {
+    display: flex;
+    flex-flow: row wrap;
+   
+}
+
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-left:0.5em;
+    margin: 0 0 1em; 0;
+    
+ 
+ 
+}
+
+header nav ul li {
+     margin-top: 0.5em;
+  
+
+
+}
+
+header nav ul li a {
+   font-family: "Nexa Bold", sans-serif;
+    color: #00d16c;
+}
+  
+header input[type=text] {
+    margin: 2em;
+    display: flex;
+    width: 25%
+}
+
+header img {
+    width: 3em;
+    height: 3em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+h1 {
+    font-family: "Nexa Bold", sans-serif;
+    color: #00d16c;
+    font-size: 2.3em;
+ margin-left: 0.5em;
+    margin-top: 1em;
+}
+
+h2 {
+    font-family: "Nexa Bold", sans-serif;
+    color: #00d16c;
+    padding-top: 1em;
+}
+
+h3 {
+    font-family: "Nexa Bold", sans-serif;
+}
+
+footer p {
+    font-family: "Nexa Bold", sans-serif;
+    display: flex;
+    flex-flow: column;
+    padding: 0.40em
+}
+
+section {
+    display: flex;
+    flex-flow: column;
+}
+
+section:first-of-type {
+    background: whitesmoke;
+}
+
+section img {
+    width: 20em;
+}
+
+form {
+    font-family: "Nexa Bold", sans-serif;
+}
+
+input {
+    font-family: "Nexa Bold", sans-serif;
+}
+
+footer {
+
+  list-style: none;
+  display: flex;
+  
+
+}
+
+
+footer ul {
+  
+    list-style-type: none;
+    display: flex;
+}
+
+footer ul li img {
+
+    width: 2em;
+  
+}
+
+footer:nth-child(7) {
+    
+    background-color: #00d95e;
+    
+}
+
+
+

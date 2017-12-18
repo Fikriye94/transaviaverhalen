@@ -1,0 +1,99 @@
+body {
+    background-color: #00d95e;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+img {
+    width: 3em;
+    height: 3em;
+}
+
+h1 {
+    font-family: "Nexa Bold", sans-serif;
+    color: white;
+    font-size: 1.70em;
+    margin-left: 0.5em;
+    margin-top:0.5em;
+}
+
+h2 {
+    font-family: "Nexa Bold", sans-serif;
+    color: #00d16c;
+}
+
+p {
+    font-family: "Nexa Bold", sans-serif;
+}
+
+fieldset {
+    border: 0;
+}
+
+legend {
+    font-family: "Nexa Bold", sans-serif;
+    color: #00d16c;
+    font-size: 1.40em;
+    padding-bottom: 1em;
+}
+
+section {
+    background: whitesmoke;
+    width: 18em;
+    padding-top: 0.5em;
+    padding-right: 4em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+    margin: 0 auto;
+}
+
+form {
+    font-family: "Nexa Bold", sans-serif;
+    background: white;
+    border-bottom-left-radius: 0.75em;
+    border-bottom-right-radius: 0.75em;
+    padding-top: 2em;
+    padding-right: 4em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    width: 18em;
+    margin: 0 auto;
+}
+
+input {
+    font-family: 'TrebuchetMS', sans-serif;
+    width: 100%;
+    padding: 0.75em;
+    font-size: 1em;
+    border-radius: 0.75em;
+    margin-bottom: 1.5em;
+ 
+}
+
+input[type=submit] {
+    font-family: 'TrebuchetMS', sans-serif;
+    color: white;
+    background-color: deeppink;
+    padding: 0.75em;
+    font-size: 1em;
+    border-radius: 0.75em;
+    margin-bottom: 1.5em;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+}
+
+footer ul li img {
+    width: 2em;
+    height: 2em;
+}
+
+
