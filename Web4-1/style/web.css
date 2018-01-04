@@ -1,0 +1,290 @@
+header {
+    display: flex;
+    flex-flow: row wrap;
+   
+}
+
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-left:0.2em;
+    margin: 0 0 1em; 0;
+    
+}
+
+header nav ul li {
+     margin-top: 0.5em;
+  margin-left: 0.5em;
+    margin-top: 1.5em;
+
+}
+
+header nav ul li a {
+   font-family: "Nexa Bold", sans-serif;
+    color: #00d16c;
+}
+  
+header input[type=text] {
+    margin: 1em;
+    display: flex;
+    width: 18%;
+   padding: 0.3em;
+    border-radius: 3em;
+    margin-left: 4em;
+    margin-top: 2em;
+}
+
+header img {
+    width: 3em;
+    height: 3em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+h1 {
+    font-family: "Nexa Bold", sans-serif;
+    color: #00d16c;
+    font-size: 2.3em;
+ margin-left: 0.5em;
+    margin-top: 1em;
+
+    width: 100%
+}
+
+h2 {
+    font-family: "Nexa Bold", sans-serif;
+    color: #00d16c;
+    padding-top: 1em;
+}
+
+h3 {
+    font-family: "Nexa Bold", sans-serif;
+}
+
+footer p {
+    font-family: "Nexa Bold", sans-serif;
+    display: flex;
+    flex-flow: column;
+    padding: 0.40em
+}
+
+section {
+    display: flex;
+    flex-flow: column;
+}
+
+section:first-of-type {
+    background: whitesmoke;
+}
+
+section img {
+    width: 20em;
+}
+
+section h3 {
+    background-color: #00d95e;
+    color: white;
+    padding: 1em;
+    margin: 0;
+
+
+}
+form {
+    font-family: "Nexa Bold", sans-serif;
+}
+
+input {
+    font-family: "Nexa Bold", sans-serif;
+}
+
+section footer {
+
+  list-style: none;
+  display: flex;
+  position: relative;
+
+}
+
+
+footer ul {
+  
+    list-style-type: none;
+    display: flex;
+}
+
+
+footer ul li img {
+
+    width: 1.5em;
+  
+}
+
+footer:nth-child(7) {
+    
+    background-color: #00d95e;
+    padding: 0.1em;
+    
+}
+
+
+fieldset button {
+    background-color: deeppink;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: white;
+
+}
+
+
+div {
+    position: relative;
+
+}
+
+
+div article h3:first-child {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+section div h2:first-child {
+    
+     position: absolute;
+    bottom: 450px;
+    left: 16px;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    border-radius: 1em;
+}
+
+
+aside {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+@media (min-width: 27em) {
+    aside {
+    width: 50%;
+}
+}
+
+@media (min-width: 50em) {
+    aside {
+    width: 30%;
+}
+}
+
+/* Form */
+
+form {
+    margin: 0 auto;
+}
+
+form select {
+    width: 8em;
+    height: 3em;
+    color: white;
+    color: #fff;
+    font-size: 1rem;
+    background-color: deeppink;
+    background-color: #ff3268;
+    box-shadow: inset 0 -.1875em .0625em hotpink;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+    cursor: pointer;
+    border-radius: 1.25em;
+    padding: 0.8em;
+    transition: all 0.5s ease-in-out;
+}
+
+form select:hover {
+    transform: scale(1.1);
+    background-color: hotpink;
+    background-color: #ca2b55;
+    box-shadow: inset 0 -.1875em .0625em darkred;
+    box-shadow: inset 0 -.1875em .0625em #7f1737;
+}
+
+/* Button filter */
+
+/* http://weggeefcode.nl/ button filter */
+
+aside > section {
+    margin: 0 auto;
+}
+
+.btn {
+    transition: .2s;
+    cursor: pointer;
+    width: 8em;
+    height: 3em;
+    margin: 0 auto;
+    background-color: deeppink;
+    background-color: #ff3268;
+    box-shadow: inset 0 -.1875em .0625em hotpink;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+    color: white;
+    color: #fff;
+    padding: .4375em 1.5em .5625em;
+    font-weight: bold;
+    line-height: 2;
+    display: block;
+    border-radius: 1.25em;
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: deeppink;
+    background-color: #ca2b55;
+    box-shadow: inset 0 -.1875em .0625em darkred;
+    box-shadow: inset 0 -.1875em .0625em #7f1737;
+}
+
+#content {
+    background-color: deeppink;
+    background-color: #ff3268;
+    box-shadow: inset 0 -.1875em .0625em hotpink;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+    color: white;
+    color: #fff;
+    padding: .4375em 1.5em .5625em;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.25em;
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    width: 13em;
+}
+
+#content input {
+    margin-right: 1em;
+}
+
+#content label {
+    transition: all 0.5s ease-in-out;  
+}
+
+#content label:hover {
+    transform: scale(1.1);
+}
+
+/* De .hidden class verbergt de #content met display:none; */
+
+.hidden {
+    display: none!important;
+}
