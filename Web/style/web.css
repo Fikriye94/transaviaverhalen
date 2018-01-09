@@ -1,37 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     flex-flow: row wrap;
-   
 }
-
 
 header nav ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    padding-left:0.5em;
-    margin: 0 0 1em; 0;
+    padding-left: 0.2em;
+    margin:0 auto;
+   
     
- 
- 
 }
 
 header nav ul li {
-     margin-top: 0.5em;
-  
-
-
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-top: 1.5em;
+    
 }
 
 header nav ul li a {
-   font-family: "Nexa Bold", sans-serif;
+    font-family: "Nexa Bold", sans-serif;
     color: #00d16c;
 }
-  
-header input[type=text] {
-    margin: 2em;
-    display: flex;
-    width: 25%
+
+input[type=search] {
+    width: 0;
+    border: 2px solid #fff;
+    border-radius: 0.50em;
+    background-color: white;
+    background-color: #fff;
+    background-image: url('../images/iconen/search.png');
+    background-position: 0.6em 1em;
+    background-repeat: no-repeat;
+    background-size: 2em;
+    padding: 1.5em;
+    transition: width 0.5s ease-in-out;
+    margin-left: auto;
+    margin-top: 0.5em;
+    margin-right: 1em;
+}
+
+input[type=search]:hover {
+    cursor: pointer;
+}
+
+input[type=search]:focus {
+    width: 100%;
+    border: 2px solid grey;
+    border: 2px solid #ccc;
+    background-image: none;
+    background-color: yellow;
+}
+
+@media (min-width: 26em) {
+    input[type=search]:focus {
+        width: 100%;
+        background-color: blue;
+    }
+}
+
+@media (min-width: 30em) {
+    input[type=search]:focus {
+        width: 40%;
+        background-color: red;
+    }
+}
+
+@media (min-width: 40em) {
+    input[type=search]:focus {
+        width: 30%;
+        background-color: pink;
+    }
 }
 
 header img {
@@ -45,38 +91,79 @@ h1 {
     font-family: "Nexa Bold", sans-serif;
     color: #00d16c;
     font-size: 2.3em;
- margin-left: 0.5em;
+    margin-left: 0.5em;
     margin-top: 1em;
+    width: 100%
 }
 
 h2 {
     font-family: "Nexa Bold", sans-serif;
     color: #00d16c;
     padding-top: 1em;
+    padding-left: 0.3em;
+    font-size: 2em;
+    margin-left: 0.5em;
 }
 
-h3 {
-    font-family: "Nexa Bold", sans-serif;
+
+
+article div a img:first-child {
+    width: 100%;
+    position: relative;
 }
+
+body div:nth-child(3) {
+    background-color: red;
+       display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+article:nth-child(1) {
+    width: auto; 
+    margin-left: 1em;
+    margin-right: 1em;
+}
+article:nth-child(3) {
+    width: auto; 
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+article h3:first-child {
+    font-family: "Nexa Bold", sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 2.5em;
+    left: 0.3em;
+    font-size: 3.5em;
+    padding: 0;
+}
+
+footer ul {
+    font-family: "Nexa Bold", sans-serif;
+    display: flex;
+    flex-flow: row;
+    padding: 0.40em;
+    justify-content: space-between;
+    width: 15em;
+}
+
+
 
 footer p {
-    font-family: "Nexa Bold", sans-serif;
-    display: flex;
-    flex-flow: column;
-    padding: 0.40em
+    color: white;
 }
 
-section {
-    display: flex;
-    flex-flow: column;
-}
 
-section:first-of-type {
-    background: whitesmoke;
-}
 
-section img {
-    width: 20em;
+section h3 {
+    background-color: #00d95e;
+    color: white;
+    padding: 1em;
+    margin: 0;
 }
 
 form {
@@ -87,32 +174,168 @@ input {
     font-family: "Nexa Bold", sans-serif;
 }
 
-footer {
-
-  list-style: none;
-  display: flex;
-  
-
+section footer {
+    list-style: none;
+    display: flex;
+    position: relative;
 }
 
-
 footer ul {
-  
     list-style-type: none;
     display: flex;
+    margin: 0;
 }
 
 footer ul li img {
-
-    width: 2em;
-  
+    width: 1.5em;
+    
 }
 
-footer:nth-child(7) {
-    
+section div article a img {
+    display: flex;
+    margin: 0 auto;
+    width: 20em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+}
+
+
+
+section div footer h4 {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0.1em;
+    padding-left: 0.5em;
+      font-family: "Nexa Bold", sans-serif;
+    padding-top: 0.4em;
+}
+
+section div article footer {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 20em;
     background-color: #00d95e;
-    
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    margin-bottom: 1em;
 }
+
+section div article footer ul {
+    margin: 0 auto;
+}
+
+footer ul li p img {
+    width: 1.2em;
+}
+
+
+/* Button filter */
+
+
+/* http://weggeefcode.nl/ button filter */
+
+
+/* asiye koca */
+
+
+.btn {
+    transition: .2s;
+    cursor: pointer;
+    width: 1em;
+    height: 2.5em;
+    background-color: deeppink;
+    background-color: #ff3268;
+    box-shadow: inset 0 -.1875em .0625em hotpink;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+    color: white;
+    color: #fff;
+    padding: .5em 1.5em .5em;
+    font-weight: bold;
+    line-height: 2;
+    border-radius: 1.25em;
+    transition: all 0.5s ease-in-out;
+    margin-left: 2em;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: deeppink;
+    background-color: #ca2b55;
+    box-shadow: inset 0 -.1875em .0625em darkred;
+    box-shadow: inset 0 -.1875em .0625em #7f1737;
+}
+
+
+aside section span img {
+    width: 1.5em;
+    padding-top: 0.5em;
+}
+
+aside {
+    margin-left: 2em;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    font-family: "Nexa Bold", sans-serif;
+}
+
+aside h4 {
+    color: #00d16c;
+}
+
+
+#content {
+    background-color: deeppink;
+    background-color: #ff3268;
+    box-shadow: inset 0 -.1875em .0625em hotpink;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+    color: white;
+    color: #fff;
+    padding: .5em 1.5em .5em;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.25em;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-left: 2em;
+}
+
+
+
+
+
+#content input {
+    margin-right: 1em;
+}
+
+#content label {
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+#content label:hover {
+    transform: scale(1.1);
+}
+
+
+/* De .hidden class verbergt de #content met display:none; */
+
+.hidden {
+    display: none!important;
+}
+
+
+
+
+
+
+
 
 
 
