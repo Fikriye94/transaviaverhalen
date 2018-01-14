@@ -1,0 +1,32 @@
+
+#elkefooter {
+    display:flex;
+    width: 100%;
+    background-color: #F7F7F7;
+    padding-top:1em;
+    padding-bottom:1em;
+    margin-top: 5em;
+ 
+}
+
+
+footer ul {
+ 
+    display: flex;
+    flex-flow: row;
+
+    justify-content: space-between;
+    width: 15em;
+    list-style-type: none;
+}
+
+
+
+
+footer ul li img {
+    width: 1.5em;
+    
+}
+
+
+
